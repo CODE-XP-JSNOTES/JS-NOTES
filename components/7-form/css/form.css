@@ -24,15 +24,12 @@ form{
  
 }
 
-input{
-
+input{    
     
-    width: 100%;
     height: 20px;
     border: none;
     border-radius: 3px;
     margin: 5px 0;
-
 }
 
 .form__button-item{
@@ -46,6 +43,30 @@ input{
    
    
 }
+.form__button-itemremove{
+    float:right;
+    width:15px;
+   height: 18px;
+   text-align: center;
+   border: 1px solid black;
+   border-radius: 3px;
+   margin: -5px 40px 10px 5px;
+   
+}
+
+.form__item, .form__item-num{
+    float: left;
+    
+}
+
+.form__item-add{
+
+    float: left;
+    width: 78%;
+    margin: -5px 5px 10px 30px;
+    
+    
+}
 
 .fieldset__itens{
 
@@ -57,10 +78,8 @@ input{
 
 .form__notas{
 
-    /*width: 100%;
-    border: 1px;
-    border-radius: 2px;
-    color: white;*/
+    width: 100%;
+   
 }
 
 
