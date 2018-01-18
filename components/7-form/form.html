@@ -15,7 +15,7 @@
         <legend> Cadastro de Notas </legend>
 
         <spam> TITULO </spam>
-        <div><input type="text" class="form__notas"> </div>
+        <div><input type="text" class="form__notas" id="titulo"> </div>
 
         <fieldset class = "fieldset__itens">
             <legend> ITENS </legend>
@@ -23,10 +23,12 @@
 
             <!--<button type="submit" class="form__button-item"> + </button>-->
 
-            <div class = "form__item"> ITEM </div>
+
+            <div id="item"> </div>
+            <!--<div class = "form__item"> ITEM </div>
             <div class="form__item-num"> 0 </div>
             <div> <input type="text" class="form__item-add"> </div>
-            <div onclick="teste()" class="form__button-itemremove">-</div>
+            <div onclick="teste()" class="form__button-itemremove">-</div>-->
 
             <div class="form__buttons">
 
@@ -46,6 +48,9 @@
     </fieldset>
 
     </form>
+
+
+
     <script src="js/form.js"></script>
 </body>
 </html>
