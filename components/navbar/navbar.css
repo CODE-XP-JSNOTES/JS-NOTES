@@ -39,7 +39,7 @@
 .search{
     background-color: #f5b400bd;
     padding: 5px;
-    font-family: 'FontAwesome';
+    font-family: 'FontAwesome', 'Arial';
     content: '\f002';
     font-size: 1.0rem;
     border-color: transparent;
