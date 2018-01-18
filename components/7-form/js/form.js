@@ -19,9 +19,9 @@ function teste() {
 
     var template = "";
     template += '<div class = "form__item"> ITEM </div>';
-    template += '<div class="form__item-num">' + items.length + '</div>';
+    template += '<div class="form__item-num"> ' + items.length + ' </div>';
     template += ' <div> <input type="text" class="form__item-add"></div>';
-    template += '<div onclick="teste()" class="form__button-itemremove">-</div>';
+    template += '<div class="form__button-itemremove">-</div>';
 
     div.innerHTML = template;
 

@@ -50,7 +50,7 @@ input{
    text-align: center;
    border: 1px solid black;
    border-radius: 3px;
-   margin: -5px 40px 10px 5px;
+   margin: -25px 40px 10px 5px;
    
 }
 
@@ -61,7 +61,7 @@ input{
 
 .form__item-add{
 
-    float: left;
+    /*float: left;*/
     width: 78%;
     margin: -5px 5px 10px 30px;
     
