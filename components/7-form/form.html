@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="css/form.css">
     <title>Document</title>
 </head>
-<body>
+<body onload="validarForm()">
 
-<form action = "">
+<form action = "" >
 
     <fieldset class="fieldset__notas">
         <legend> Cadastro de Notas </legend>
@@ -19,22 +19,22 @@
 
         <fieldset class = "fieldset__itens" id="itens">
             <legend> ITENS </legend>
-            <div onclick="teste()" class="form__button-item">+</div>
+            <div onclick="adicionarItens()" class="form__button-item">+</div>
 
             <!--<button type="submit" class="form__button-item"> + </button>-->
 
-
-            <div id="item"> </div>
+                
+            <div id="lista-itens"> </div>
             <!--<div class = "form__item"> ITEM </div>
             <div class="form__item-num"> 0 </div>
             <div> <input type="text" class="form__item-add"> </div>
             <div onclick="teste()" class="form__button-itemremove">-</div>-->
 
-            <div class="form__buttons">
+            <div class="form__buttons" id = "form__buttons">
 
-                <button type = "submit" class="form__button"> Cadastrar c/ DOM </button>
+                <!--<button type = "submit" class="form__button"> Cadastrar c/ DOM </button>
                 <button type = "submit" class="form__button"> Cadastrar s/ DOM </button>
-                <button type = "submit" class="form__button"> Limpar </button> 
+                <button type = "submit" class="form__button"> Limpar </button> -->
 
                 
             </div>
