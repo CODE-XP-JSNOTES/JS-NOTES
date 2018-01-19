@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/form.css">
+    <title>Document</title>
+</head>
+<body onload="validarForm()">
+
+<form action = "">
+
+    <fieldset class="fieldset__notas">
+        <legend> Cadastro de Notas </legend>
+
+        <span> TITULO </span>
+        <div><input type="text" class="form__notas" id="titulo"> </div>
+
+        <fieldset class = "fieldset__itens" id="itens">
+            <legend> ITENS </legend>
+            <div onclick="adicionarItens()" class="form__button-item">+</div>
+
+            <!--<button type="submit" class="form__button-item"> + </button>-->
+
+
+            <div id="lista-itens"> </div>
+            <!--<div class = "form__item"> ITEM </div>
+            <div class="form__item-num"> 0 </div>
+            <div> <input type="text" class="form__item-add"> </div>
+            <div onclick="teste()" class="form__button-itemremove">-</div>-->
+
+            <div class="form__buttons">
+<!-- 
+                <button type = "submit" class="form__button"> Cadastrar c/ DOM </button>
+                <button type = "submit" class="form__button"> Cadastrar s/ DOM </button>
+                <button type = "submit" class="form__button"> Limpar </button> 
+
+                 -->
+            </div>
+
+        </fieldset>
+
+
+
+       
+
+    </fieldset>
+
+    </form>
+
+
+
+    <script src="js/form.js"></script>
+</body>
+</html>
